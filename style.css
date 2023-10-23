@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "CormorantGaramond", sans-serif, Arial;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    max-width: 200px;
+    color: azure;
+}
+
+
+.container {
+width: 100vw;
+height: 100vh;
+display: flex;
+}
+
+.user {
+width: 30vw;
+height: 100%;
+background-color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.user_photo {
+    margin-top: 5vh;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.contacts {
+    width: 100%;
+
+text-align: center;
+}
+
+.contacts_icon {
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.contacts_link {
+    width: 150px;
+    text-align: start;
+    color: azure;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.contacts_link:hover { 
+    transform: scale(1.08);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.contacts_heading {
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 400;
+    background-color: rgb(216, 214, 214);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contacts_heading:not(:first-child) {
+    margin-top: 30px;
+}
+
+.contacts_container {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 50vw;
+    background-color: rgb(216, 214, 214);
+    display: flex;
+    justify-content: center;
+    }
+
+.about__header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills {
+    width: 20vw;
+    background-color: black;
+}
+
+.skills__heading {
+    margin-top: 40px;
+    margin-right: 50px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 400;
+    background-color: rgb(216, 214, 214);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__list {
+    color: azure;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.skills__list_item {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 50px;
+}
