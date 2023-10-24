@@ -90,14 +90,14 @@ text-align: center;
     align-items: center;
 }
 
-.about {
+.main {
     width: 50vw;
     background-color: rgb(216, 214, 214);
     display: flex;
     justify-content: center;
     }
 
-.about__header {
+.main__header {
     height: 100px;
     display: flex;
     justify-content: center;
@@ -136,4 +136,43 @@ text-align: center;
     text-align: center;
     margin-top: 30px;
     margin-right: 50px;
+}
+
+.main__info {
+    width: 100%;
+}
+
+.user-info {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 30px;
+
+}
+
+.main__about-user {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.about-user_header{
+    text-align: center;
+}
+
+.about-user {
+    max-width: 100%;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hard-skills_header {
+    text-align: center;
+}
+.hard-skills_list {
+    list-style-type: none;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
 }
